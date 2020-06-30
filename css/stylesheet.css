@@ -70,13 +70,10 @@ body {
         width: 35%;
         height: 280px;
         vertical-align: top;
+        font-size: 12px;
     }
     .anggota-card:hover{
         width: 35%;
-    }
-
-    .anggota-card p, h3{
-        font-size: 12px;
     }
 }
 
