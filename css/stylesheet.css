@@ -48,7 +48,7 @@ body {
     width: 25%;
 }
 
-@media (min-width:720px) {
+@media (min-width:721px) {
     .anggota-card{
         width: 25%;
         height: 350px;
