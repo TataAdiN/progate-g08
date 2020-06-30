@@ -2,3 +2,67 @@ body {
     margin: 0;
     font-family: "Lucida Grande";
 }
+
+/* Mulai Bagian Tata Adi Nugroho */
+
+.anggota-wrapper{
+    height: auto;
+    padding: auto;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.anggota-card{
+    display: inline-block;
+    background-color: #ffffff; 
+    /* 
+        Formula box shadow
+        box-shadow : a b c d e
+
+        a = mengatur shadow ke kanan atau ke kiri dengan nilai positive atau negative
+        b = mengatur shadow ke kanan atau ke kiri dengan nilai positive atau negative
+        c = blur 
+        d = radius shadow
+        e = warna shadow disarankan dengan formula transparansi
+    */
+    box-shadow:  0px 10px 25px 0px #4d4d4d79;
+    border-radius: 10px; 
+    padding: 10px; 
+    margin:10px;
+}
+
+.anggota-card:hover{
+    box-shadow:  0px 4px 10px 0px #4d4d4d3b;
+    border-radius: 10px; 
+    padding: 10px; 
+    margin:10px;
+    width: 25%;
+}
+.anggota-card:hover{
+    box-shadow:  0px 4px 10px 0px #4d4d4d3b;
+    border-radius: 10px; 
+    padding: 10px; 
+    margin:10px;
+    width: 25%;
+}
+
+@media (min-width:670px) {
+    .anggota-card{
+        width: 25%;
+    }
+    .anggota-card:hover{
+        width: 25%;
+    }
+}
+
+@media (max-width:670px) {
+    .anggota-card{
+        width: 40%;
+    }
+    .anggota-card:hover{
+        width: 40%;
+    }
+}
+
+
+/* Akhir Bagian Tata Adi Nugroho */
