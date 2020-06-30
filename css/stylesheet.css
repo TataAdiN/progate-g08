@@ -68,11 +68,15 @@ body {
 @media (max-width:720px) {
     .anggota-card{
         width: 35%;
-        min-height: 340px;
+        height: 280px;
         vertical-align: top;
     }
     .anggota-card:hover{
         width: 35%;
+    }
+
+    .anggota-card{
+        font-size: 12px;
     }
 }
 
