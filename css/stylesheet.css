@@ -5,6 +5,11 @@ body {
 
 /* Mulai Bagian Tata Adi Nugroho */
 
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 .anggota-wrapper{
     height: auto;
     padding: auto;
