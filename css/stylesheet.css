@@ -75,7 +75,7 @@ body {
         width: 35%;
     }
 
-    .anggota-card{
+    .anggota-card p, h3{
         font-size: 12px;
     }
 }
