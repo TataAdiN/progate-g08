@@ -5,13 +5,9 @@ body {
 
 /* Mulai Bagian Tata Adi Nugroho */
 
-.container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
 .anggota-wrapper{
     height: auto;
+    width: 100%;
     padding: auto;
     background-color: #f7f7f7;
     text-align: center;
@@ -34,6 +30,7 @@ body {
     border-radius: 10px; 
     padding: 10px; 
     margin:10px;
+    transition: all 1s;
 }
 
 .anggota-card:hover{
@@ -51,21 +48,25 @@ body {
     width: 25%;
 }
 
-@media (min-width:670px) {
+@media (min-width:720px) {
     .anggota-card{
         width: 25%;
+        height: 350px;
+        vertical-align: top;
     }
     .anggota-card:hover{
         width: 25%;
     }
 }
 
-@media (max-width:670px) {
+@media (max-width:720px) {
     .anggota-card{
-        width: 40%;
+        width: 35%;
+        min-height: 340px;
+        vertical-align: top;
     }
     .anggota-card:hover{
-        width: 40%;
+        width: 35%;
     }
 }
 
