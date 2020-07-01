@@ -167,7 +167,7 @@ header {
 }
   
 .logo {
-    width: 124px;
+    width: 120px;
     margin-top: 0px;
 }
   
@@ -177,7 +177,7 @@ header {
   
 .header-right {
     float: right;
-    padding-right: 20px;
+    padding-right: 10px;
     color: rgb(230, 204, 230);
     background-color: rgba(112, 11, 58, 0.9);
     transition: all 0.5s;
@@ -188,7 +188,7 @@ header {
     display:block;
     float: left;
     height: 100%;
-    margin-right: 20px;
+    margin-right: 10px;
     line-height: 40px;
 }
 
