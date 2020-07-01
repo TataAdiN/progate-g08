@@ -1,0 +1,51 @@
+@media all and (max-width: 1000px) {
+  
+}
+
+/* Mulai Bagian Tata Adi Nugroho */
+
+@media (min-width:721px) {
+    .anggota-card img{
+        width: 45%;
+    }
+    .anggota-card{
+        width: 15%;
+        height: 200px;
+        vertical-align: top;
+        font-size: 10px;
+    }
+    .anggota-card:hover{
+        width: 16%;
+    }
+}
+
+@media (max-width:720px) {
+    .anggota-card img{
+        width: 35%;
+    }
+    .anggota-card{
+        width: 30%;
+        height: 200px;
+        vertical-align: top;
+        font-size: 10px;
+    }
+    .anggota-card:hover{
+        width: 35%;
+    }
+}
+/* Akhir Bagian Tata Adi Nugroho */
+
+/* Mulai Bagian Ahmad Jamil */
+@media all and (max-width: 670px) {
+  .footer-list  a{
+    float: none;
+    display: inline;
+    }
+    .footer-list{
+        padding-top: 10px;
+        padding-right: 0px;
+        float: right;
+        text-align: right;
+    }
+}
+/* Akhir Bagian Ahmad Jamil */
