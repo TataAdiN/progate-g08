@@ -14,7 +14,7 @@ body {
 .anggota-wrapper{
     height: auto;
     width: 100%;
-    padding: 50px 0px 100px 0px;
+    padding: 100px 0px 100px 0px;
     background-color: #f7f7f7;
     text-align: center;
 }
@@ -86,3 +86,119 @@ footer {
     
 }
 /* Akhir Bagian Ahmad Jamil */
+
+/*mulai bagian Budy Haryono*/
+
+* {
+	box-sizing: border-box;
+}
+
+.contact-form {
+	background-color: #f7f7f7;
+    height: 570px;
+    padding: 0px 50px 0px 50px;
+}
+
+
+.message-form {
+	float: right;
+	padding: 70px 250px 0px 0px;
+}
+
+.message-form p {
+	margin: 0px;
+	font-size: 14px;
+}
+
+.text-content {
+	float: left;
+	width: 50%;
+	padding: 130px 0px 0px 250px;
+}
+
+.text-content h2{
+	font-size: 35px;
+	margin-bottom: 5px;
+}
+
+.text-content h3{
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+.text-content p {
+	margin-top: 35px;
+}
+
+input, textarea {
+	padding: 15px;
+	margin-bottom: 30px;
+	border: 1px solid #dee7ec;
+	width: 285px;
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.contact-submit {
+	color: #6F95AC;
+	background-color: #dee7ec;
+	font-size: 14px;
+}
+
+/*Akhir bagian Budy Haryono*/
+
+/* Mulai Bagian Laras Tawang Pratiwi */
+.header-right li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(136, 18, 106, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.logo {
+    width: 124px;
+    margin-top: 0px;
+}
+  
+.header-left {
+    float: left;
+}
+  
+.header-right {
+    float: right;
+    padding-right: 20px;
+    color: rgb(230, 204, 230);
+    background-color: rgba(112, 11, 58, 0.9);
+    transition: all 0.5s;
+    height: 80px;
+}
+
+.header-list ul li {
+    display:block;
+    float: left;
+    height: 100%;
+    margin-right: 20px;
+    line-height: 40px;
+}
+
+.header-right:hover {
+    background-color: rgba(168, 41, 151, 0.9);
+}
+  
+.header-right a {
+    color: white;
+}
+
+/* Akhir Bagian Laras Tawang Pratiwi */
+

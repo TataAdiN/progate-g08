@@ -49,3 +49,51 @@
     }
 }
 /* Akhir Bagian Ahmad Jamil */
+
+/* Mulai bagian Budy Haryono*/
+/* Untuk Tablet */
+@media all and (max-width: 1100px) {
+    .contact-form {
+      height: 700px;
+    }
+  
+    .text-content {
+      text-align: left;
+      padding: 0px;
+      width: 100%;
+    }
+  
+    .message-form {
+      width: 100%;
+      text-align: center;
+      display: inline-block;
+      padding: 0px;
+    }
+  }
+  
+  /* Untuk Smartphone */
+  @media all and (max-width: 670px) {
+    .text-content {
+      text-align: left;
+      padding: 0px;
+      width: 100%;
+    }
+  
+    .text-content h2 {
+      font-size: 24px;
+    }
+  
+    .text-content h3 {
+      font-size: 16px;
+    }
+  
+    .message-form {
+      width: 100%;
+    }
+  
+    input, textarea {
+      width: 100%;
+    }
+  }
+  
+  /*Akhir Bagian Budy Haryono*/
