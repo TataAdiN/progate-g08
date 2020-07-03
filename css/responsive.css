@@ -32,6 +32,14 @@
     .anggota-card:hover{
         width: 35%;
     }
+
+    .upper {
+        padding: 100px 0 100px 0;
+    }
+    
+    .upper h1 {
+        font-size:60px;
+    }
 }
 /* Akhir Bagian Tata Adi Nugroho */
 
