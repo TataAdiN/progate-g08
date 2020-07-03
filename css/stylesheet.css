@@ -162,6 +162,7 @@ header {
     height: 80px;
     width: 100%;
     background-color: rgba(136, 18, 106, 0.9);
+    padding-right: 10px;
     position: fixed;
     top: 0;
     z-index: 10;
